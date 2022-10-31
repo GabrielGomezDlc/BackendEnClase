@@ -1,0 +1,10 @@
+package com.theraphy.backendtheraphy.security.api.internal;
+
+import com.theraphy.backendtheraphy.security.domain.model.entity.User;
+
+import java.util.List;
+
+public interface SecurityContextFacade {
+    List<User> getAllUsers();
+
+}
